@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Vip Deep Massage ",
+    "price": 550000,
+    "category": "Vip Massage",
+    "imageUrl": "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+    "description": "Liệu trình massage chuyên sâu giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu."
+  },
+  {
+    "id": 2,
+    "name": "Foot Massage Thư Giãn (30 mins)",
+    "price": 270000,
+    "category": "Express Massage",
+    "imageUrl": "https://images.healthshots.com/healthshots/en/uploads/2022/12/19171903/foot-massage.jpg",
+    "description": "Giúp giảm căng thẳng, thư giãn cơ thể và cải thiện tuần hoàn máu."
+  },
+  {
+    "id": 3,
+    "name": "Head, Neck & Shoulder Massage (30 mins)",
+    "price": 320000,
+    "category": "Express Massage",
+    "imageUrl": "https://www.traditionalbodywork.com/wp-content/uploads/2023/04/thai-massage-shoulder-forearm-roll.jpeg",
+    "description": "Giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu ở vùng đầu, cổ và vai."
+  },
+  {
+    "id": 4,
+    "name": "Back, Neck & Shoulder Massage (30 mins)",
+    "price": 450000,
+    "category": "Express Massage",
+    "imageUrl": "https://medicalmassagedetox.com/wp-content/uploads/2023/07/neck-back-shoulder.jpg",
+    "description": "Giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu ở vùng lưng, cổ và vai."
+  },
+  {
+    "id": 5,
+    "name": "Kid Massage (60 mins)",
+    "price": 350000,
+    "category": "Kid",
+    "imageUrl": "https://www.lapauseyogachaud.com/wp-content/uploads/2025/01/boy-toddler-relaxes-from-therapeutic-massage-physiotherapist-working-with-patient-clinic-back-child.webp",
+    "description": "Liệu trình massage nhẹ nhàng giúp trẻ thư giãn, cải thiện giấc ngủ và tăng cường sức khỏe tổng thể."
+  },
+  {
+    "id": 6,
+    "name": "Kid Massage (90 mins)",
+    "price": 450000,
+    "category": "Kid",
+    "imageUrl": "https://www.lapauseyogachaud.com/wp-content/uploads/2025/01/boy-toddler-relaxes-from-therapeutic-massage-physiotherapist-working-with-patient-clinic-back-child.webp",
+    "description": "Liệu trình massage nhẹ nhàng giúp trẻ thư giãn, cải thiện giấc ngủ và tăng cường sức khỏe tổng thể."
+  },
+  {
+    "id": 7,
+    "name": "Foot Massage Thư Giãn (60 mins)",
+    "price": 450000,
+    "category": "Foot Massage",
+    "imageUrl": "https://images.healthshots.com/healthshots/en/uploads/2022/12/19171903/foot-massage.jpg",
+    "description": "Giúp thư giãn chân và giảm căng thẳng sau ngày dài hoạt động."
+  },
+  {
+    "id": 8,
+    "name": "Foot Massage Thư Giãn (90 mins + hot stone)",
+    "price": 550000,
+    "category": "Foot Massage",
+    "imageUrl": "https://almasorganicbeauty.co.uk/wp-content/uploads/2025/01/hot-stone-massage-by-massage-therapist-with-hot-stones-on-feet.jpg",
+    "description": "Liệu trình massage chân kết hợp đá nóng giúp thư giãn sâu và cải thiện tuần hoàn máu."
+  },
+  {
+    "id": 9,
+    "name": "Body Massage Thư Giãn (60 mins)",
+    "price": 500000,
+    "category": "Body Massage",
+    "imageUrl": "https://serenityheadspas.com/wp-content/uploads/2024/09/Massage-Techniques-to-relieve-Back-Pain-1024x595.webp",
+    "description": "Liệu trình massage toàn thân giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu."
+  },
+  {
+    "id": 10,
+    "name": "Body Massage Thư Giãn (90 mins + hot stone)",
+    "price": 620000,
+    "category": "Body Massage",
+    "imageUrl": "https://iconicbeautique.com/wp-content/uploads/2025/01/a-young-woman-getting-hot-stone-massage-from-her-s-2023-11-27-05-28-49-utc-scaled.jpg",
+    "description": "Liệu trình massage toàn thân kết hợp đá nóng giúp thư giãn sâu và cải thiện tuần hoàn máu."
+  }
+]
