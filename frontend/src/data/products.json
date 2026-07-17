@@ -1,82 +1,962 @@
 [
   {
     "id": 1,
-    "name": "Vip Deep Massage ",
+    "name": "The Moc Vip Deep Massage (60 mins)",
+    "slug": "the-moc-vip-deep-massage-60min",
     "price": 550000,
-    "category": "Vip Massage",
+    "category": "The Moc Vip Deep Massage",
+    "duration": "60 phút",
     "imageUrl": "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
-    "description": "Liệu trình massage chuyên sâu giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu."
+    "description": "Gói massage toàn thân đặc biệt của The Mộc, tác động sâu, thư giãn cơ bắp. Sử dụng gối thảo mộc chườm nóng vùng cổ, vai gáy kết hợp tinh dầu cao cấp THANN nhập khẩu Hàn Quốc.",
+    "gallery": [
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png"
+    ],
+    "benefits": [
+      "Giảm đau nhức cơ",
+      "Cải thiện tuần hoàn máu",
+      "Giảm căng thẳng",
+      "Ngủ ngon hơn"
+    ],
+    "healthInfo": "Không sử dụng dịch vụ khi đang sốt cao, mắc bệnh truyền nhiễm hoặc có vết thương hở.",
+    "steps": [
+      {
+        "title": "Ngâm chân thảo dược",
+        "description": "Ngâm chân thảo dược Đông Y giúp giãn mạch máu kết hợp thưởng thức trà gừng chào mừng."
+      },
+      {
+        "title": "Khai thông huyệt đạo",
+        "description": "Kỹ thuật viên thực hiện các động tác khởi động cơ thể và ấn nhẹ huyệt đạo vùng lưng."
+      },
+      {
+        "title": "Chườm gối thảo mộc",
+        "description": "Chườm nóng vùng cổ, vai gáy bằng túi thảo dược để làm dịu nhanh các cơn đau mỏi."
+      },
+      {
+        "title": "Massage trị liệu THANN",
+        "description": "Massage ấn huyệt chuyên sâu toàn thân kết hợp tinh dầu cao cấp THANN nhập khẩu."
+      },
+      {
+        "title": "Thư giãn & Làm sạch",
+        "description": "Thư giãn nhẹ nhàng vùng đầu, mặt và lau sạch cơ thể bằng khăn ấm bốc hơi."
+      }
+    ]
   },
   {
     "id": 2,
-    "name": "Foot Massage Thư Giãn (30 mins)",
-    "price": 270000,
-    "category": "Express Massage",
-    "imageUrl": "https://images.healthshots.com/healthshots/en/uploads/2022/12/19171903/foot-massage.jpg",
-    "description": "Giúp giảm căng thẳng, thư giãn cơ thể và cải thiện tuần hoàn máu."
+    "name": "The Moc Vip Deep Massage (90 mins)",
+    "slug": "the-moc-vip-deep-massage-90min",
+    "price": 680000,
+    "category": "The Moc Vip Deep Massage",
+    "duration": "90 phút",
+    "imageUrl": "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+    "description": "Gói massage toàn thân đặc biệt của The Mộc, tác động sâu, thư giãn cơ bắp. Sử dụng gối thảo mộc chườm nóng vùng cổ, vai gáy kết hợp tinh dầu cao cấp THANN nhập khẩu Hàn Quốc.",
+    "gallery": [
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png"
+    ],
+    "benefits": [
+      "Phục hồi các nhóm cơ bị tổn thương do vận động",
+      "Đào thải độc tố cơ thể qua hệ bài tiết",
+      "Giảm stress kéo dài và cân bằng hệ thần kinh",
+      "Tăng cường độ dẻo dai của các mô cơ sâu"
+    ],
+    "healthInfo": "Chống chỉ định với người có tiền sử chấn thương cột sống nặng chưa lành, hoặc người vừa phẫu thuật dưới 3 tháng.",
+    "steps": [
+      {
+        "title": "Ngâm chân & Ấn huyệt",
+        "description": "Ngâm chân thảo dược ấm kết hợp ấn huyệt nhẹ nhàng kích thích các huyệt đạo lòng bàn chân."
+      },
+      {
+        "title": "Điều hòa khí huyết",
+        "description": "Đắp gối thảo mộc nóng vùng vai gáy để lưu thông máu lên não trước khi thực hiện liệu trình."
+      },
+      {
+        "title": "Trị liệu cơ sâu lưng",
+        "description": "Kỹ thuật viên đi huyệt mạnh và miết dầu THANN trị liệu sâu từ thắt lưng lên bả vai."
+      },
+      {
+        "title": "Massage mặt trước",
+        "description": "Massage và vuốt miết thư giãn hai tay và chân phía trước giúp lưu thông máu đều đặn."
+      },
+      {
+        "title": "Massage đầu cổ",
+        "description": "Chăm sóc chuyên sâu vùng đầu, cổ, thái dương để giải tỏa hoàn toàn căng thẳng thần kinh."
+      },
+      {
+        "title": "Đánh thức & Dùng súp",
+        "description": "Thực hiện động tác đánh thức giác quan, lau cơ thể và dùng súp bổ dưỡng nhẹ tại sảnh."
+      }
+    ]
   },
   {
     "id": 3,
-    "name": "Head, Neck & Shoulder Massage (30 mins)",
-    "price": 320000,
-    "category": "Express Massage",
-    "imageUrl": "https://www.traditionalbodywork.com/wp-content/uploads/2023/04/thai-massage-shoulder-forearm-roll.jpeg",
-    "description": "Giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu ở vùng đầu, cổ và vai."
+    "name": "The Moc Vip Deep Massage (120 mins)",
+    "slug": "the-moc-vip-deep-massage-120min",
+    "price": 800000,
+    "category": "The Moc Vip Deep Massage",
+    "duration": "120 phút",
+    "imageUrl": "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+    "description": "Gói massage toàn thân đặc biệt của The Mộc, tác động sâu, thư giãn cơ bắp. Sử dụng gối thảo mộc chườm nóng vùng cổ, vai gáy kết hợp tinh dầu cao cấp THANN nhập khẩu Hàn Quốc.",
+    "gallery": [
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png",
+      "https://vipmassage.vn/wp-content/uploads/2025/11/Bony-Vip-Massage-Da-Nang-1-1024x578.png"
+    ],
+    "benefits": [
+      "Trị liệu chuyên sâu chứng đau mỏi cơ kinh niên",
+      "Tối ưu hóa lưu thông khí huyết toàn bộ cơ thể",
+      "Tái tạo năng lượng tinh thần ở trạng thái nghỉ ngơi tuyệt đối",
+      "Nuôi dưỡng làn da căng mịn nhờ tinh dầu cao cấp thấm sâu"
+    ],
+    "healthInfo": "Khách hàng có bệnh lý về tim mạch, huyết áp cao hoặc phụ nữ mang thai cần thông báo trước với kỹ thuật viên để điều chỉnh lực tay.",
+    "steps": [
+      {
+        "title": "Ngâm chân & Tẩy da chết",
+        "description": "Ngâm chân thảo mộc quý và tẩy sạch tế bào chết bàn chân giúp chân mềm mại, dễ hấp thụ."
+      },
+      {
+        "title": "Ủ ấm & Hương liệu pháp",
+        "description": "Ủ ấm toàn thân bằng khăn mềm, hít thở sâu hương tinh dầu tự nhiên để cơ thể đi vào trạng thái tĩnh."
+      },
+      {
+        "title": "Miết dọc kinh lạc",
+        "description": "Kỹ thuật miết dọc các đường kinh bàng quang vùng thắt lưng, bả vai với lực đằm sâu giảm mỏi mệt."
+      },
+      {
+        "title": "Trị liệu các khớp cơ",
+        "description": "Massage tỉ mỉ từng khớp ngón tay, khuỷu tay, bắp chân để tháo xoắn các bó cơ đang căng cứng."
+      },
+      {
+        "title": "Kéo dãn & Chườm nóng",
+        "description": "Chườm thảo dược nóng kết hợp các động tác kéo giãn cột sống nhẹ nhàng phục hồi tư thế."
+      },
+      {
+        "title": "Bấm huyệt đầu mặt",
+        "description": "Massage bấm huyệt vùng đầu, thái dương chuyên sâu giúp ngủ ngon, an thần."
+      },
+      {
+        "title": "Lau ấm & Thưởng thức",
+        "description": "Làm sạch tinh dầu bằng khăn ấm bốc hơi, kết thúc quy trình với trà gừng mật ong sảng khoái."
+      }
+    ]
   },
   {
     "id": 4,
-    "name": "Back, Neck & Shoulder Massage (30 mins)",
-    "price": 450000,
+    "name": "Head, Neck & Shoulder Massage (30 mins)",
+    "slug": "head-neck-shoulder-massage-30min",
+    "price": 320000,
     "category": "Express Massage",
-    "imageUrl": "https://medicalmassagedetox.com/wp-content/uploads/2023/07/neck-back-shoulder.jpg",
-    "description": "Giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu ở vùng lưng, cổ và vai."
+    "duration": "30 phút",
+    "imageUrl": "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp",
+    "description": "Giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu ở vùng đầu, cổ và vai.",
+    "gallery": [
+      "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp",
+      "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp",
+      "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp",
+      "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp"
+    ],
+    "benefits": [
+      "Giảm nhanh chứng đau nửa đầu và đau đỉnh đầu",
+      "Giải phóng sự chèn ép thần kinh vùng cổ",
+      "Tăng cường lượng oxy lên não, giảm hoa mắt chóng mặt",
+      "Thư giãn nhanh cho dân văn phòng ngồi máy tính nhiều"
+    ],
+    "healthInfo": "Không áp dụng cho người đang bị chấn thương vùng đốt sống cổ hoặc vừa bị chấn động mạnh ở vùng đầu.",
+    "steps": [
+      {
+        "title": "Khởi động ngồi",
+        "description": "Khách ngồi ghế/giường thư giãn, kỹ thuật viên dùng lực ấn lòng bàn tay để sưởi ấm vai gáy."
+      },
+      {
+        "title": "Giải mỏi cơ cổ",
+        "description": "Sử dụng dầu miết nhẹ nhàng và miết sâu các thớ cơ dọc gáy giúp giảm cảm giác co cứng cơ cổ."
+      },
+      {
+        "title": "Ấn huyệt trị đau đầu",
+        "description": "Ấn huyệt quanh thái dương, vùng chẩm đầu để xua tan cảm giác nặng đầu và nhức nửa đầu."
+      },
+      {
+        "title": "Thư giãn vai & Lau sạch",
+        "description": "Vuốt nhẹ vai gáy đưa cơ thể về trạng thái cân bằng và lau sạch tinh dầu bằng khăn ấm."
+      }
+    ]
   },
   {
     "id": 5,
-    "name": "Kid Massage (60 mins)",
-    "price": 350000,
-    "category": "Kid",
-    "imageUrl": "https://www.lapauseyogachaud.com/wp-content/uploads/2025/01/boy-toddler-relaxes-from-therapeutic-massage-physiotherapist-working-with-patient-clinic-back-child.webp",
-    "description": "Liệu trình massage nhẹ nhàng giúp trẻ thư giãn, cải thiện giấc ngủ và tăng cường sức khỏe tổng thể."
+    "name": "Back, Neck & Shoulder Massage (30 mins)",
+    "slug": "back-neck-shoulder-massage-30min",
+    "price": 320000,
+    "category": "Express Massage",
+    "duration": "30 phút",
+    "imageUrl": "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp",
+    "description": "Giúp giảm nhanh các cơn đau nhức, thư giãn cơ bắp sâu ở vùng lưng, cổ và vai gáy.",
+    "gallery": [
+      "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp",
+      "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp",
+      "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp",
+      "https://letsrelaxthaimassage.com/wp-content/uploads/2023/03/Service-5-1536x1024.webp"
+    ],
+    "benefits": [
+      "Làm mềm các mô cơ thắt lưng bị căng cứng do ngồi sai tư thế",
+      "Giảm nhanh tình trạng cứng cổ vai gáy vào buổi sáng",
+      "Kích thích tuần hoàn máu cục bộ vùng lưng",
+      "Tăng cường sự linh hoạt cho khớp vai"
+    ],
+    "healthInfo": "Tránh đè áp lực mạnh nếu khách hàng có hiện tượng thoát vị đĩa đệm hoặc thoái hóa cột sống lưng nặng.",
+    "steps": [
+      {
+        "title": "Xoa xoa vùng lưng",
+        "description": "Nằm sấp thoải mái, kỹ thuật viên dùng cả lòng bàn tay vuốt xoa đều tinh dầu giúp giãn các mô cơ lưng."
+      },
+      {
+        "title": "Miết bả vai",
+        "description": "Tập trung lực ngón tay cái miết kỹ quanh bả vai và dọc hai sườn cột sống lưng."
+      },
+      {
+        "title": "Giải phóng điểm nghẽn",
+        "description": "Tìm và tác động lực đẩy vào các điểm nút thắt cơ (trigger points) gây đau nhức âm ỉ vùng thắt lưng."
+      },
+      {
+        "title": "Điều hòa & Lau sạch",
+        "description": "Vuốt nhẹ vuốt dọc toàn bộ lưng, vỗ điều hòa thư giãn và lau sạch lưng bằng khăn ấm bốc hơi."
+      }
+    ]
   },
   {
     "id": 6,
-    "name": "Kid Massage (90 mins)",
-    "price": 450000,
-    "category": "Kid",
-    "imageUrl": "https://www.lapauseyogachaud.com/wp-content/uploads/2025/01/boy-toddler-relaxes-from-therapeutic-massage-physiotherapist-working-with-patient-clinic-back-child.webp",
-    "description": "Liệu trình massage nhẹ nhàng giúp trẻ thư giãn, cải thiện giấc ngủ và tăng cường sức khỏe tổng thể."
+    "name": "Kid Massage (60 mins)",
+    "slug": "kid-massage-60min",
+    "price": 350000,
+    "category": "Kid Massage",
+    "duration": "60 phút",
+    "imageUrl": "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg",
+    "gallery": [
+      "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg",
+      "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg",
+      "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg",
+      "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg"
+    ],
+    "description": "Liệu trình massage nhẹ nhàng giúp trẻ thư giãn, cải thiện giấc ngủ và tăng cường sức khỏe tổng thể.",
+    "benefits": [
+      "Kích thích phát triển chiều cao và hệ xương khớp cho trẻ",
+      "Giúp trẻ ngủ ngon, sâu giấc và giảm quấy khóc ban đêm",
+      "Tăng cường hệ miễn dịch tự nhiên của trẻ nhỏ",
+      "Xoa dịu hệ thần kinh, giảm căng thẳng sau giờ học"
+    ],
+    "healthInfo": "Chỉ áp dụng cho trẻ em từ 5 đến 12 tuổi. Cần có sự giám hộ hoặc đồng ý của phụ huynh trước khi thực hiện.",
+    "steps": [
+      {
+        "title": "Làm quen & Ngâm chân",
+        "description": "Kỹ thuật viên trò chuyện vui vẻ tạo sự yên tâm cho bé, ngâm chân với nước ấm nhẹ dịu."
+      },
+      {
+        "title": "Massage lưng organic",
+        "description": "Thực hiện vuốt ve, xoa bóp nhẹ nhàng bằng tinh dầu organic dừa hoặc hạnh nhân lành tính cho làn da trẻ nhỏ."
+      },
+      {
+        "title": "Kích thích khớp chân tay",
+        "description": "Massage nhẹ nhàng cánh tay, bắp chân, đùi xoa dịu cơ gân hỗ trợ hệ xương khớp phát triển chiều cao tốt hơn."
+      },
+      {
+        "title": "Thư giãn tinh thần",
+        "description": "Massage đầu cổ dịu nhẹ giúp bé giải tỏa căng thẳng sau những giờ học trên lớp."
+      },
+      {
+        "title": "Làm sạch cơ thể",
+        "description": "Lau sạch tinh dầu bằng khăn ấm dịu, tránh bết rít cho da em bé."
+      }
+    ]
   },
   {
     "id": 7,
-    "name": "Foot Massage Thư Giãn (60 mins)",
+    "name": "Kid Massage (90 mins)",
+    "slug": "kid-massage-90min",
     "price": 450000,
-    "category": "Foot Massage",
-    "imageUrl": "https://images.healthshots.com/healthshots/en/uploads/2022/12/19171903/foot-massage.jpg",
-    "description": "Giúp thư giãn chân và giảm căng thẳng sau ngày dài hoạt động."
+    "category": "Kid Massage",
+    "duration": "90 phút",
+    "imageUrl": "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg",
+    "description": "Liệu trình massage nhẹ nhàng kéo dài giúp trẻ thư giãn sâu, giảm mệt mỏi sau giờ học.",
+    "gallery": [
+      "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg",
+      "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg",
+      "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg",
+      "https://empoweraba.com/wp-content/uploads/2025/05/massage-autism-5.jpg"
+    ],
+    "benefits": [
+      "Thư giãn sâu hệ cơ vận động của trẻ em",
+      "Hỗ trợ hệ tiêu hóa hoạt động tốt hơn thông qua massage bụng nhẹ nhàng",
+      "Giảm mỏi mắt và cơ thể do tiếp xúc nhiều với thiết bị điện tử",
+      "Tạo cảm giác thoải mái, vui vẻ và tăng khả năng tập trung cho bé"
+    ],
+    "healthInfo": "Sử dụng tinh dầu hữu cơ hoàn toàn lành tính cho da nhạy cảm của bé. Không làm khi bé vừa ăn no (trong vòng 1 tiếng).",
+    "steps": [
+      {
+        "title": "Ngâm chân muối khoáng",
+        "description": "Ngâm chân bé bằng muối khoáng và những cánh hoa hồng, tạo bầu không khí thoải mái, gần gũi."
+      },
+      {
+        "title": "Xoa bóp lưng nhẹ nhàng",
+        "description": "Sử dụng dầu massage organic xoa dịu những nhức mỏi lưng, thắt lưng khi bé ngồi học bài lâu."
+      },
+      {
+        "title": "Xoa bụng tiêu hóa",
+        "description": "Massage bụng êm ái theo chiều kim đồng hồ để cải thiện hệ tiêu hóa và nhu động ruột cho bé."
+      },
+      {
+        "title": "Chăm sóc bàn chân tay",
+        "description": "Vuốt miết kẽ ngón tay, ngón chân, lòng bàn tay hỗ trợ kích thích lưu thông máu và dây thần kinh."
+      },
+      {
+        "title": "Thư giãn mắt & Đầu",
+        "description": "Xoa bóp nhẹ vùng trán, chân mày giảm mỏi mắt do xem tivi điện thoại, kết hợp massage da đầu."
+      },
+      {
+        "title": "Lau ấm & Sữa nóng",
+        "description": "Lau cơ thể sạch bằng khăn ấm, mời bé dậy uống sữa ấm bổ sung năng lượng."
+      }
+    ]
   },
   {
     "id": 8,
-    "name": "Foot Massage Thư Giãn (90 mins + hot stone)",
-    "price": 550000,
-    "category": "Foot Massage",
-    "imageUrl": "https://almasorganicbeauty.co.uk/wp-content/uploads/2025/01/hot-stone-massage-by-massage-therapist-with-hot-stones-on-feet.jpg",
-    "description": "Liệu trình massage chân kết hợp đá nóng giúp thư giãn sâu và cải thiện tuần hoàn máu."
+    "name": "Foot Massage (30 mins)",
+    "slug": "foot-massage-30min",
+    "price": 270000,
+    "category": "Express Massage",
+    "duration": "30 phút",
+    "imageUrl": "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+    "description": "Giúp giảm căng thẳng, thư giãn cơ bắp bàn chân và cải thiện tuần hoàn máu một cách nhanh chóng.",
+    "gallery": [
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg"
+    ],
+    "benefits": [
+      "Giảm tức thì cảm giác nhức mỏi chân do đi lại nhiều",
+      "Kích thích các huyệt đạo cơ bản dưới lòng bàn chân",
+      "Giảm sưng phù nề nhẹ ở vùng cổ chân",
+      "Mang lại cảm giác nhẹ nhàng, thư thái nhanh chóng"
+    ],
+    "healthInfo": "Không bấm huyệt sâu nếu khách hàng đang bị chấn thương xương khớp bàn chân hoặc giãn tĩnh mạch chân nặng.",
+    "steps": [
+      {
+        "title": "Ngâm chân thảo dược",
+        "description": "Rửa chân và ngâm chân bằng nước ấm sả chanh khử mùi mồ hôi chân và làm mềm gót chân."
+      },
+      {
+        "title": "Ấn huyệt lòng bàn chân",
+        "description": "Thoa kem dưỡng ẩm chuyên dụng, dùng thanh gỗ ấn huyệt gõ hoặc ấn các điểm phản xạ ở gan bàn chân."
+      },
+      {
+        "title": "Massage mu & Kẽ chân",
+        "description": "Dùng ngón tay cái miết dọc mu bàn chân và các kẽ ngón chân xua tan cảm giác mỏi mệt."
+      },
+      {
+        "title": "Ủ ấm chân",
+        "description": "Sử dụng khăn nóng bọc quanh chân, vỗ nhẹ giúp thẩm thấu kem dưỡng và lau sạch."
+      }
+    ]
   },
   {
     "id": 9,
-    "name": "Body Massage Thư Giãn (60 mins)",
-    "price": 500000,
-    "category": "Body Massage",
-    "imageUrl": "https://serenityheadspas.com/wp-content/uploads/2024/09/Massage-Techniques-to-relieve-Back-Pain-1024x595.webp",
-    "description": "Liệu trình massage toàn thân giúp giảm căng thẳng, thư giãn cơ bắp và cải thiện tuần hoàn máu."
+    "name": "Foot Massage (60 mins)",
+    "slug": "foot-massage-60min",
+    "price": 450000,
+    "category": "Foot Massage",
+    "duration": "60 phút",
+    "imageUrl": "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+    "description": "Giúp thư giãn đôi chân chuyên sâu, giảm nhức mỏi và hồi phục năng lượng sau ngày dài hoạt động.",
+    "gallery": [
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg"
+    ],
+    "benefits": [
+      "Đả thông các đường kinh mạch liên kết với nội tạng",
+      "Tăng cường lưu thông máu từ chân ngược về tim",
+      "Giảm thiểu tình trạng chuột rút (vọp bẻ) vào ban đêm",
+      "Giúp gót chân và lòng bàn chân mềm mại hơn"
+    ],
+    "healthInfo": "Khách hàng bị tiểu đường giai đoạn nặng hoặc có vết loét ở chân cần cân nhắc và xin ý kiến bác sĩ.",
+    "steps": [
+      {
+        "title": "Ngâm chân bồn gỗ",
+        "description": "Ngâm chân thư giãn với muối thảo mộc, thảo dược tự nhiên trong bồn gỗ sồi giữ nhiệt tốt."
+      },
+      {
+        "title": "Khởi động cơ chân",
+        "description": "Xoa bóp nhẹ vùng bắp chân, miết dọc cơ ống đồng để chuẩn bị cho việc ấn huyệt sâu."
+      },
+      {
+        "title": "Phản xạ học bàn chân",
+        "description": "Ấn huyệt chuyên sâu các vùng phản xạ nội tạng như dạ dày, gan, thận trên bản đồ lòng bàn chân."
+      },
+      {
+        "title": "Vuốt trượt giảm sưng",
+        "description": "Kỹ thuật vuốt miết ngược từ cổ chân lên đầu gối giúp giảm hiện tượng tích nước và sưng phù chân."
+      },
+      {
+        "title": "Ủ ấm & Massage vai",
+        "description": "Quấn khăn nóng ủ ấm chân, kết hợp massage đầu vai gáy nhẹ nhàng trong lúc chờ chân nghỉ ngơi."
+      }
+    ]
   },
   {
     "id": 10,
-    "name": "Body Massage Thư Giãn (90 mins + hot stone)",
+    "name": "Foot Massage (90 mins + hot stone)",
+    "slug": "foot-massage-90min-hot-stone",
+    "price": 550000,
+    "category": "Foot Massage",
+    "duration": "90 phút",
+    "imageUrl": "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+    "description": "Liệu trình massage chân kết hợp ấn huyệt và đá nóng kích thích tuần hoàn máu, giải tỏa áp lực cơ thể.",
+    "gallery": [
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg"
+    ],
+    "benefits": [
+      "Nhiệt năng từ đá nóng giúp làm tan các cục máu đông ngoại vi",
+      "Cân bằng năng lượng âm dương trong cơ thể",
+      "Hỗ trợ điều trị chứng mất ngủ kinh niên hiệu quả",
+      "Giảm thiểu áp lực lên các khớp gối và cổ chân"
+    ],
+    "healthInfo": "Phụ nữ mang thai không nên sử dụng gói có bấm huyệt sâu ở chân và chườm đá nóng nhiệt độ cao.",
+    "steps": [
+      {
+        "title": "Ngâm muối gừng ấm",
+        "description": "Làm sạch và ngâm chân gừng tươi lát mỏng cùng muối hồng giúp chân dãn tĩnh mạch thoải mái."
+      },
+      {
+        "title": "Trị liệu ấn huyệt",
+        "description": "Ấn sâu các điểm huyệt vị cốt lõi ở gan bàn chân để giải phóng năng lượng ứ đọng."
+      },
+      {
+        "title": "Đá nóng bắp chân",
+        "description": "Dùng những viên đá nóng bazan vuốt miết ôm dọc bắp đùi, bắp chân giảm nhức mỏi cơ do đứng lâu."
+      },
+      {
+        "title": "Kẹp đá kẽ chân",
+        "description": "Đặt những viên đá ấm nhỏ vào kẽ ngón chân giúp truyền nhiệt sâu hỗ trợ ngủ ngon."
+      },
+      {
+        "title": "Thư giãn tay & Vai gáy",
+        "description": "Massage nhẹ nhàng cánh tay và vai gáy để xoa dịu cơ thể toàn diện nhất."
+      },
+      {
+        "title": "Lau ấm hoàn tất",
+        "description": "Gỡ đá ấm, lau sạch tinh dầu chân bằng khăn nóng ẩm mang lại cảm giác thoải mái."
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Foot Massage (120 mins + hot stone)",
+    "slug": "foot-massage-120min-hot-stone",
+    "price": 620000,
+    "category": "Foot Massage",
+    "duration": "120 phút",
+    "imageUrl": "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+    "description": "Liệu trình chăm sóc chân tối đa kết hợp đá nóng giúp đả thông kinh lạc, mang lại sự thư thái tuyệt đối.",
+    "gallery": [
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg",
+      "https://dp-cdn.multiscreensite.com/e_gallery/Spa-Foot-Massage_1382_922_d.jpg"
+    ],
+    "benefits": [
+      "Liệu pháp trị bách bệnh qua phản xạ học bàn chân",
+      "Giúp cơ thể đạt trạng thái thiền định, loại bỏ hoàn toàn âu lo",
+      "Tăng cường chức năng thải độc của gan và thận thông qua huyệt đạo",
+      "Phục hồi sinh lực toàn diện cho đôi chân chịu áp lực lớn hàng ngày"
+    ],
+    "healthInfo": "Vui lòng thông báo cho kỹ thuật viên nếu bạn nhạy cảm với nhiệt độ cao của đá nóng để điều chỉnh bọc khăn phù hợp.",
+    "steps": [
+      {
+        "title": "Tẩy gót sữa mật ong",
+        "description": "Chà gót chân xơ cứng kết hợp ngâm chân sữa tươi mật ong ấm dưỡng da chân mịn màng."
+      },
+      {
+        "title": "Ấn huyệt chuyên sâu",
+        "description": "Thực hiện ấn huyệt sâu theo bản đồ phản xạ học bàn chân phục hồi nội tạng hư tổn."
+      },
+      {
+        "title": "Massage đá nóng chuyên sâu",
+        "description": "Dùng đá bazan lướt miết sâu và chườm nóng dọc đùi, bắp chân, mắt cá đả thông huyết mạch."
+      },
+      {
+        "title": "Mặt nạ bùn chân",
+        "description": "Đắp mặt nạ đất sét hoặc bùn khoáng cấp dưỡng chất cho bàn chân kết hợp kẹp đá ấm kẽ chân."
+      },
+      {
+        "title": "Trị liệu nửa thân trên",
+        "description": "Massage kéo dãn cổ vai gáy, cánh tay lưng giảm căng cơ toàn thân."
+      },
+      {
+        "title": "An thần da đầu",
+        "description": "Ấn huyệt Bách Hội và vùng thái dương xoa dịu hệ thần kinh trung ương."
+      },
+      {
+        "title": "Đánh thức thưởng trà",
+        "description": "Làm sạch chân, phục vụ trà đông trùng hạ thảo bổ dưỡng giúp khôi phục thể chất."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Body Massage (60 mins)",
+    "slug": "body-massage-60min",
+    "price": 500000,
+    "category": "Body Massage",
+    "duration": "60 phút",
+    "imageUrl": "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+    "description": "Liệu trình massage toàn thân tiêu chuẩn giúp giảm căng thẳng, thư giãn cơ bắp và cân bằng cơ thể.",
+    "gallery": [
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg"
+    ],
+    "benefits": [
+      "Giảm đau mỏi cơ bắp toàn thân",
+      "Kích thích hệ bạch huyết, hỗ trợ miễn dịch",
+      "Làm dịu tinh thần và giảm hormone gây stress cortisol",
+      "Cải thiện độ đàn hồi của làn da"
+    ],
+    "healthInfo": "Không thực hiện khi cơ thể mệt mỏi quá độ do đói, hoặc ngay sau khi sử dụng đồ uống có cồn.",
+    "steps": [
+      {
+        "title": "Ngâm chân Thụy Điển",
+        "description": "Ngâm chân nước ấm kết hợp thảo dược Thụy Điển kích hoạt lưu thông máu gót chân."
+      },
+      {
+        "title": "Miết dầu vùng lưng",
+        "description": "Nằm sấp, kỹ thuật viên lướt tinh dầu trơn mượt, miết dài làm giãn các thớ cơ dọc sườn cột sống."
+      },
+      {
+        "title": "Thư giãn bắp chân đùi",
+        "description": "Massage nắn cơ bắp chân, mặt sau cơ đùi giúp chân hoạt động dẻo dai linh hoạt."
+      },
+      {
+        "title": "Massage mặt trước",
+        "description": "Nằm ngửa, xoa dịu vùng hai tay và miết lướt cơ bả vai vùng ngực sườn."
+      },
+      {
+        "title": "Chăm sóc da đầu & Lau sạch",
+        "description": "Massage nhẹ nhàng vùng thái dương và đầu, lau tinh dầu bám trên da bằng khăn ấm nóng."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Body Massage (90 mins + hot stone)",
+    "slug": "body-massage-90min-hot-stone",
     "price": 620000,
     "category": "Body Massage",
-    "imageUrl": "https://iconicbeautique.com/wp-content/uploads/2025/01/a-young-woman-getting-hot-stone-massage-from-her-s-2023-11-27-05-28-49-utc-scaled.jpg",
-    "description": "Liệu trình massage toàn thân kết hợp đá nóng giúp thư giãn sâu và cải thiện tuần hoàn máu."
+    "duration": "90 phút",
+    "imageUrl": "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+    "description": "Massage toàn thân kết hợp luân chuyển đá nóng hấp thụ độc tố, xoa dịu các vùng cơ căng cứng.",
+    "gallery": [
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg"
+    ],
+    "benefits": [
+      "Đá nóng bazan tự nhiên giúp hút độc tố sâu dưới da",
+      "Giảm co thắt cơ và xơ cứng các bó cơ hiệu quả",
+      "Tăng cường giấc ngủ sâu nhờ hơi ấm lưu thông",
+      "Tạo cảm giác nhẹ bẫng toàn thân sau liệu trình"
+    ],
+    "healthInfo": "Người có làn da quá mẫn cảm, dễ bị phồng rộp hoặc mắc chứng mất cảm giác nhiệt cần lưu ý khi dùng đá nóng.",
+    "steps": [
+      {
+        "title": "Ngâm chân hoa tươi",
+        "description": "Ngâm chân thư giãn bằng bồn gỗ sồi kết hợp hoa tươi băm nhỏ giúp đôi chân thả lỏng hoàn toàn."
+      },
+      {
+        "title": "Thoa dầu & Đi huyệt",
+        "description": "Thoa dầu mát-xa trơn tru mượt mà toàn lưng, ấn các huyệt đạo mỏm vai chống mệt nhọc."
+      },
+      {
+        "title": "Đẩy trượt đá bazan",
+        "description": "Dùng cặp đá núi lửa bazan hơ ấm vuốt miết cơ bắp dọc sống lưng dẹp bỏ sự tắc mạch."
+      },
+      {
+        "title": "Đặt đá luân xa",
+        "description": "Đặt cố định các viên đá nóng dọc theo cột sống lưng kích thích hệ thần kinh trung ương hoạt động cân đối."
+      },
+      {
+        "title": "Xoa bóp đá chi dưới",
+        "description": "Đẩy lướt đá nóng ở các thớ cơ chân đùi mệt mỏi thúc đẩy lưu thông đào thải cặn bã ra ngoài."
+      },
+      {
+        "title": "Làm sạch & Kết thúc",
+        "description": "Massage nhẹ đầu cổ, dùng khăn ấm lau sạch tinh dầu tránh bết da."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Body Massage (120 mins + hot stone)",
+    "slug": "body-massage-120min-hot-stone",
+    "price": 750000,
+    "category": "Body Massage",
+    "duration": "120 phút",
+    "imageUrl": "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+    "description": "Liệu trình phục hồi toàn thân chuyên sâu cao cấp kết hợp đá nóng, tái tạo năng lượng từ sâu bên trong.",
+    "gallery": [
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg",
+      "https://img.grouponcdn.com/deal/2rX8diy6Ey61MjxKrmv4M85g6y6F/2r-2048x1229/v1/c870x524.jpg"
+    ],
+    "benefits": [
+      "Giải phóng hoàn toàn các điểm kích hoạt đau (trigger points) trên cơ thể",
+      "Hồi sinh các cơ quan mệt mỏi, tái tạo năng lượng sinh học",
+      "Kích thích sản sinh endorphin tạo cảm giác hạnh phúc, yêu đời",
+      "Nuôi dưỡng sâu mô tế bào nhờ thời gian massage tối ưu"
+    ],
+    "healthInfo": "Chống chỉ định tuyệt đối với người bị loãng xương nặng hoặc mắc chứng tắc nghẽn mạch máu (huyết khối).",
+    "steps": [
+      {
+        "title": "Mở huyệt Himalaya",
+        "description": "Ngâm chân muối hồng Himalaya thải độc tố, sưởi ấm kinh lạc cơ sừng gót bàn chân."
+      },
+      {
+        "title": "Mở huyệt toàn thân",
+        "description": "Thực hiện ấn huyệt khô khởi động kích hoạt mở các đường truyền năng lượng toàn bộ cơ thể."
+      },
+      {
+        "title": "Massage dầu sâu",
+        "description": "Sử dụng tinh dầu thơm vuốt dài miết sâu vùng vai cổ thắt lưng bả vai mệt rã rời."
+      },
+      {
+        "title": "Đẩy đá nóng đại",
+        "description": "Lấy những viên đá bazan cỡ đại trượt lăn xoa dịu các nhóm cơ lớn nhất như đùi và lưng."
+      },
+      {
+        "title": "Sưởi ấm đa luân xa",
+        "description": "Xếp đá nóng dọc lưng, kẹp chân tay và đắp ấm bụng cân bằng khí huyết sinh lực."
+      },
+      {
+        "title": "Căng cơ Thụy Điển",
+        "description": "Kéo giãn thụ động kiểu Thụy Điển thư giãn các khớp gối vai sườn dẻo dai."
+      },
+      {
+        "title": "Bấm huyệt an thần",
+        "description": "Bấm huyệt sọ não, miết chân mày bớt mệt mắt và nhức đầu chóng mặt."
+      },
+      {
+        "title": "Lau sạch bồi bổ",
+        "description": "Dùng khăn bốc hơi lau mát cơ thể hoàn toàn, thưởng thức trà sâm mật ong ấm nóng bổ dưỡng."
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Thai Massage (60 mins)",
+    "slug": "thai-massage-60min",
+    "price": 520000,
+    "category": "Thai Massage",
+    "duration": "60 phút",
+    "imageUrl": "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+    "description": "Massage kiểu Thái truyền thống sử dụng kỹ thuật ấn huyệt và co duỗi yoga giúp kéo giãn cơ gân, tăng tính linh hoạt.",
+    "gallery": [
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg"
+    ],
+    "benefits": [
+      "Mở rộng biên độ chuyển động của các khớp khớp",
+      "Kéo giãn các nhóm cơ bị co rút do ngồi một chỗ quá lâu",
+      "Đẩy nhanh tốc độ phục hồi cơ gân sau khi tập thể thao",
+      "Đả thông các dòng năng lượng Sen khắp cơ thể"
+    ],
+    "healthInfo": "Yêu cầu trang phục rộng rãi (được spa cung cấp). Không phù hợp cho người có khớp lỏng lẻo hoặc nhân viên văn phòng bị thoái hóa khớp nặng.",
+    "steps": [
+      {
+        "title": "Trang phục & Ngâm chân",
+        "description": "Thay đồ thun Thái rộng rãi thoải mái, ngâm chân muối sả thanh tẩy ban đầu."
+      },
+      {
+        "title": "Ấn huyệt khô lòng bàn chân",
+        "description": "Sử dụng lực từ lòng bàn tay và chân nhấn đè lên các đường năng lượng Sen dọc chi dưới chân."
+      },
+      {
+        "title": "Kéo dãn gân kheo",
+        "description": "Ép gập gối kéo giãn cơ đùi sau giúp giảm chứng đau gân bắp chân đùi hiệu quả."
+      },
+      {
+        "title": "Yoga thuyền thụ động",
+        "description": "Kéo căng hai tay ép sát ngực nâng nhẹ cơ thể căng giãn cột sống như thế con thuyền."
+      },
+      {
+        "title": "Thả lỏng cơ & Thức giấc",
+        "description": "Gõ vỗ nhẹ thả lỏng cơ vai gáy, kết thúc liệu trình đầy khỏe khoắn năng lượng."
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Thai Massage (90 mins)",
+    "slug": "thai-massage-90min",
+    "price": 660000,
+    "category": "Thai Massage",
+    "duration": "90 phút",
+    "imageUrl": "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+    "description": "Massage kiểu Thái giúp lưu thông khí huyết mở rộng các khớp, giải phóng hoàn toàn các vùng cơ bị khóa.",
+    "gallery": [
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg"
+    ],
+    "benefits": [
+      "Tăng cường sự dẻo dai tương tự như các bài tập Yoga thụ động",
+      "Kích thích hệ tiêu hóa hoạt động nhịp nhàng thông qua co duỗi",
+      "Giải phóng hoàn toàn các vùng cơ bị bó chặt vùng mông và đùi",
+      "Cân bằng dòng chảy sinh lực, loại bỏ mệt mỏi tích tụ lâu ngày"
+    ],
+    "healthInfo": "Khách hàng có tiền sử thay khớp nhân tạo hoặc đang đặt đinh nội tủy cần báo trước để kỹ thuật viên né các bài bẻ khớp.",
+    "steps": [
+      {
+        "title": "Ngâm chân gừng muối",
+        "description": "Làm sạch gót chân với nước ấm ngâm gừng lát mỏng thảo mộc thư thái kích lưu thông mạch."
+      },
+      {
+        "title": "Định vị kinh lạc chân",
+        "description": "Thực hiện ép nhấn dọc các thớ cơ chân đùi khô loại bỏ hoàn toàn các nút bó tắc ban đầu."
+      },
+      {
+        "title": "Ấn khuỷu bả vai mông",
+        "description": "Dùng lực mượt bả vai gối, khuỷu tay đè miết khớp háng, mông giải tỏa nhức nhọc ngồi nhiều."
+      },
+      {
+        "title": "Vặn sườn con thuyền",
+        "description": "Thực hiện xoắn vặn eo bụng, ngửa cổ bẻ uốn cột sống giãn bả sườn thông thoáng khí quản."
+      },
+      {
+        "title": "Kéo giãn cánh cung",
+        "description": "Nâng đỡ hai bả vai từ phía sau uốn cong nhẹ toàn lồng ngực mở biên độ khớp vai."
+      },
+      {
+        "title": "Ấn huyệt sọ đầu",
+        "description": "Kích thích các huyệt đạo đỉnh đầu xua tan mệt mỏi, nâng cao tinh thần sảng khoái."
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Thai Massage (120 mins)",
+    "slug": "thai-massage-120min",
+    "price": 780000,
+    "category": "Thai Massage",
+    "duration": "120 phút",
+    "imageUrl": "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+    "description": "Trải nghiệm trọn vẹn liệu trình bấm huyệt và kéo giãn sâu của Hàn Quốc, đưa cơ thể về trạng thái cân bằng đỉnh cao.",
+    "gallery": [
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg",
+      "https://sunchaba.lu/wp-content/uploads/2021/02/Traditional_Thai_Massage_opti.jpg"
+    ],
+    "benefits": [
+      "Đưa toàn bộ cơ gân, cột sống về vị trí cân bằng tự nhiên",
+      "Trị liệu chuyên sâu cho người chơi thể thao cường độ lớn",
+      "Thanh lọc cơ thể, giải phóng căng thẳng tâm lý ở tầng sâu nhất",
+      "Cải thiện tư thế đứng, ngồi thẳng thắn hơn"
+    ],
+    "healthInfo": "Không thích hợp cho người già có hệ xương yếu giòn, phụ nữ đang trong chu kỳ kinh nguyệt hoặc người bị chấn thương dây chằng.",
+    "steps": [
+      {
+        "title": "Ngâm chân hoàng gia",
+        "description": "Làm sạch chân chuyên sâu với muối ngâm hoa sen ấm giúp đào thải tế bào cũ ở gót bàn chân."
+      },
+      {
+        "title": "Mở huyệt sưởi ấm cơ",
+        "description": "Ấn đè toàn bộ các vùng huyệt vị mặt lưng chân từ gót dọc lên đến thắt lưng giải mỏi."
+      },
+      {
+        "title": "Trị liệu giãn khớp chi dưới",
+        "description": "Áp dụng kỹ thuật bẻ khớp kéo dãn gân cốt cường độ trung bình của bộ môn Yoga cổ thụ."
+      },
+      {
+        "title": "Ấn sâu cùi chỏ lưng vai",
+        "description": "Dùng cùi chỏ đè miết các rãnh cơ quanh cột sống thắt lưng bả vai xả stress các điểm cơ cứng nghẽn."
+      },
+      {
+        "title": "Bẻ cong toàn diện ngửa",
+        "description": "Co kéo đùi ép hông luân phiên hai bên giúp giãn tối đa mông đùi mặt trước thắt lưng chậu."
+      },
+      {
+        "title": "Bẻ duỗi giãn cột sống cổ",
+        "description": "Căng bẻ khớp vai gáy an toàn giải phóng khí huyết vùng cổ gáy bị chèn ép thần kinh."
+      },
+      {
+        "title": "Thư giãn mắt đầu & Trà sâm",
+        "description": "Bấm huyệt thông suốt vùng đầu, tai mắt thoải mái, tỉnh thức dùng trà sâm mát hồi sinh."
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Shiatsu Massage (60 mins)",
+    "slug": "shiatsu-massage-60min",
+    "price": 520000,
+    "category": "Shiatsu Massage",
+    "duration": "60 phút",
+    "imageUrl": "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+    "description": "Phương pháp massage ấn huyệt bằng ngón tay theo y học cổ truyền Nhật Bản, tác động chính xác vào các mạch năng lượng.",
+    "gallery": [
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg"
+    ],
+    "benefits": [
+      "Kích thích hệ thần kinh tự chủ hoạt động ổn định",
+      "Xoa dịu nhanh chứng đau nhức cơ xương khớp bằng áp lực ngón tay",
+      "Hỗ trợ tăng cường sức đề kháng và khả năng tự chữa lành",
+      "Điều hòa khí huyết, làm giảm cảm giác nặng nề cơ thể"
+    ],
+    "healthInfo": "Kỹ thuật Shiatsu dùng lực nhấn khô (không dầu hoặc ít dầu). Tránh dùng khi cơ thể đang có các ổ viêm tấy hoặc áp xe da.",
+    "steps": [
+      {
+        "title": "Thanh lọc muối Nhật",
+        "description": "Ngâm chân với muối hột khoáng Nhật Bản đào thải khí hư ở gót bàn chân."
+      },
+      {
+        "title": "Ấn lực ngón cái cột sống",
+        "description": "Kỹ thuật bấm dứt khoát vuông góc bằng đầu ngón tay cái dọc bám hai rãnh cột sống."
+      },
+      {
+        "title": "Kích hoạt bàng quang kinh",
+        "description": "Tác động áp lực sâu kích lưu thông dòng khí dọc theo kinh bàng quang giúp giảm nhức lưng kinh niên."
+      },
+      {
+        "title": "Giải mỏi vai gáy tay",
+        "description": "Bấm sâu huyệt bả vai hố đòn và bóp cơ dọc các bắp tay giải phóng chèn rễ thần kinh cánh tay."
+      },
+      {
+        "title": "Thư giãn mạch năng lượng đầu",
+        "description": "Bấm các huyệt đạo quanh tai, thái dương khơi mào tuần hoàn máu não tươi tỉnh."
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Shiatsu Massage (90 mins)",
+    "slug": "shiatsu-massage-90min",
+    "price": 660000,
+    "category": "Shiatsu Massage",
+    "duration": "90 phút",
+    "imageUrl": "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+    "description": "Massage Shiatsu Nhật Bản giúp kích thích hệ thần kinh, hỗ trợ giảm đau đầu, mất ngủ và mệt mỏi kinh niên.",
+    "gallery": [
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg"
+    ],
+    "benefits": [
+      "Giải tỏa triệt để chứng mệt mỏi kinh niên (Chronic Fatigue)",
+      "Cải thiện hoạt động của hệ tuần hoàn mao mạch",
+      "Giảm hẳn các cơn đau đầu do căng thẳng thần kinh áp lực công việc",
+      "Tăng năng lượng tích cực cho cơ thể khỏe khoắn từ bên trong"
+    ],
+    "healthInfo": "Không thích hợp cho người mắc bệnh máu khó đông hoặc đang dùng thuốc loãng máu do lực ấn huyệt sâu.",
+    "steps": [
+      {
+        "title": "Ngâm sả sành muối",
+        "description": "Ngâm bồn chân ấm với những hạt muối thô hòa tinh dầu sả thanh khiết mệt mỏi."
+      },
+      {
+        "title": "Khảo sát cơ toàn diện",
+        "description": "Sử dụng bàn tay nhấn lướt thô để định vị chính xác những chùm cơ đang bị cứng tắc lưng mông."
+      },
+      {
+        "title": "Ấn đè điểm nghẽn",
+        "description": "Ấn và giữ từ 3 đến 5 giây tại từng điểm huyệt thắt lưng, hông đùi để phá giải các hạch cơ mỏi."
+      },
+      {
+        "title": "Trị liệu bả vai cổ",
+        "description": "Tập trung miết lực mạnh dọc xương bả vai chống lại sự đè nén khớp vai cổ gáy văn phòng."
+      },
+      {
+        "title": "Mở mạch chi ngửa",
+        "description": "Nằm ngửa bấm thông các điểm mạch ở bắp đùi trước và lòng bàn tay khôi phục khớp dẻo dai."
+      },
+      {
+        "title": "Độc huyệt Bách Hội",
+        "description": "Nhấn sâu huyệt đỉnh đầu và thái dương xua tan chóng mặt nhức mắt, ổn định thần kinh."
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Shiatsu Massage (120 mins)",
+    "slug": "shiatsu-massage-120min",
+    "price": 780000,
+    "category": "Shiatsu Massage",
+    "duration": "120 phút",
+    "imageUrl": "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+    "description": "Liệu pháp bấm huyệt Shiatsu chuyên sâu toàn diện giúp giải tỏa tắc nghẽn năng lượng, nâng cao sức đề kháng cơ thể.",
+    "gallery": [
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg",
+      "https://salondemassage.gr/wp-content/uploads/2023/12/shiatsu-1200x675.jpg"
+    ],
+    "benefits": [
+      "Đả thông toàn bộ hệ thống 14 đường kinh lạc chính",
+      "Cân bằng hormone nội tiết và tăng năng lượng sinh học",
+      "Thải độc sâu cho hệ cơ xương khớp qua các điểm bấm huyệt",
+      "Mang lại trạng thái thư thái đỉnh cao, minh mẫn tinh thần"
+    ],
+    "healthInfo": "Chống chỉ định đối với bệnh nhân suy tim, suy thận nặng hoặc có máy trợ tim lắp đặt trong cơ thể.",
+    "steps": [
+      {
+        "title": "Thải độc ngâm chân",
+        "description": "Ngâm chân bằng bồn gỗ với thảo mộc sấy tự nhiên muối khoáng Nhật giúp thanh lọc phủ tạng."
+      },
+      {
+        "title": "Giãn cơ khởi động",
+        "description": "Kéo giãn căng chân và tay thụ động khởi sắc các huyệt đạo cơ bắp khi chưa miết mượt."
+      },
+      {
+        "title": "Mạch Nhâm Đốc dọc lưng",
+        "description": "Bấm dứt khoát sâu 12 cặp huyệt luân phiên dọc hai mạch lớn Nhâm Đốc dọc cơ xương sống."
+      },
+      {
+        "title": "Giải xơ cứng cơ hông",
+        "description": "Kỹ thuật đè khuỷu tay chuyên nghiệp đánh tan điểm xơ hóa cơ quanh thắt lưng, xương cùng hông."
+      },
+      {
+        "title": "Massage kẽ ngón tay",
+        "description": "Bấm sâu huyệt Hợp Cốc và kéo vuốt dãn cơ lòng bàn tay cánh tay mỏi rã."
+      },
+      {
+        "title": "Thông mạch cơ ức đòn",
+        "description": "Massage nhẹ hai bên cơ cổ, ấn các huyệt dưới tai giúp đưa máu tươi nuôi não thông mạch."
+      },
+      {
+        "title": "Nhấn huyệt mặt thần kinh",
+        "description": "Bấm huyệt quanh xương hốc mắt, chân mày và bách hội cải thiện giấc ngủ tối đa."
+      },
+      {
+        "title": "Đánh thức trà lứt",
+        "description": "Tỉnh thức nhẹ nhàng thả lỏng bả vai, thưởng thức trà xanh gạo lứt Nhật Bản thanh đạm."
+      }
+    ]
   }
 ]

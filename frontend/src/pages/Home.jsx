@@ -1,0 +1,42 @@
+import Header from "../components/Header/Header.jsx";
+// import Banner from "../components/Banner/Banner.jsx";
+// import FeatureSection from "../components/ServiceCard/FeatureSection.jsx";
+// import ProductPage from "../components/ServiceCard/ProductPage.jsx";
+import TestimonialSection from "../components/Home/TestimonialSection";
+import WhyChooseUs from "../components/Home/WhyChooseUs";
+import Footer from "../components/Footer/Footer.jsx";
+import HeroSection from "../components/Home/HeroSection";
+import AboutSection from "../components/Home/AboutSection.jsx";
+import FeaturedServices from "../components/Home/FeatureService.jsx";
+import CTASection from "../components/Home/CTASection";
+function Home() {
+  return (
+    <div>
+      <Header titles="The Moc Spa" />
+      <HeroSection />
+      {/* <Banner
+        subtitle="The Moc Spa"
+        cardtext=" Cải thiện sức khỏe của mọi người!"
+        buttonText="Đặt lịch"
+      /> */}
+      {/* <FeatureSection /> */}
+      <AboutSection />
+      {/* <ProductPage /> */}
+      <FeaturedServices />
+      <WhyChooseUs />
+      <TestimonialSection />
+      <CTASection />
+      <Footer
+        studentName={[
+          "Quách Tiến Tài - 2200006985",
+          "Lê Thanh Trọng - 2200009170",
+          "Nguyễn Mai Tú Mẫn - 2200006620",
+          "Nguyễn Hoàng Pháp Bảo - 2200006550",
+        ]}
+        courseName="Full-Stack Web Development"
+      />
+    </div>
+  );
+}
+
+export default Home;
