@@ -12,7 +12,7 @@ import CTASection from "../components/Home/CTASection";
 function Home() {
   return (
     <div>
-      <Header titles="The Moc Spa" />
+      <Header titles="The Moc Spa2" />
       <HeroSection />
       {/* <Banner
         subtitle="The Moc Spa"
