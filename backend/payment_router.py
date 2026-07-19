@@ -5,6 +5,7 @@ import httpx
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 
+from config import get_paypal_cancel_url, get_paypal_return_url
 from database import get_db
 from models import Order, OrderStatus, PaymentStatus
 from schemas import (
@@ -160,14 +161,14 @@ def create_paypal_order(
             detail="Order already paid",
         )
 
-    return_url = os.getenv(
-        "PAYPAL_RETURN_URL",
-        "http://localhost:5173/payment/paypal/success",
-    )
-    cancel_url = os.getenv(
-        "PAYPAL_CANCEL_URL",
-        "http://localhost:5173/payment/paypal/cancel",
-    )
+    try:
+        return_url = get_paypal_return_url()
+        cancel_url = get_paypal_cancel_url()
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=str(exc),
+        ) from exc
 
     access_token = _get_paypal_access_token()
     usd_amount = _vnd_to_usd(order.total)

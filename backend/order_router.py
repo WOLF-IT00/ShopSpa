@@ -3,7 +3,7 @@ from sqlalchemy.orm import Session
 
 from auth import get_current_user, get_current_user_required, require_admin
 from database import get_db
-from models import Order, OrderItem, OrderStatus, PaymentStatus, Product, User, UserRole
+from models import Order, OrderItem, OrderStatus, OrderStatusLog, PaymentStatus, Product, User, UserRole
 from schemas import OrderCreate, OrderItemResponse, OrderResponse
 
 router = APIRouter(prefix="/orders", tags=["orders"])
@@ -82,6 +82,17 @@ def create_order(
         items=order_items,
     )
     db.add(order)
+    db.flush()
+    db.add(
+        OrderStatusLog(
+            order_id=order.id,
+            action="CREATED",
+            old_value=None,
+            new_value=OrderStatus.PENDING.value,
+            note="Đơn hàng được tạo",
+            created_by=current_user.email if current_user else "guest",
+        )
+    )
     db.commit()
     db.refresh(order)
     return _to_order_response(order)

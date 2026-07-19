@@ -157,6 +157,63 @@ class AdminStatsResponse(BaseModel):
     total_revenue: int
 
 
+class DashboardSummary(BaseModel):
+    total_revenue: int
+    total_orders: int
+    total_customers: int
+    total_staff: int
+    total_services: int
+    total_vouchers: int
+    total_reviews: int
+    revenue_trend_percent: float
+    orders_trend_percent: float
+
+
+class DashboardChartPoint(BaseModel):
+    label: str
+    value: int
+
+
+class DashboardServiceItem(BaseModel):
+    name: str
+    booking_count: int
+    revenue: int
+
+
+class DashboardCustomerItem(BaseModel):
+    full_name: str
+    email: str
+    order_count: int
+    total_spent: int
+
+
+class DashboardBookingItem(BaseModel):
+    id: int
+    full_name: str
+    email: str
+    total: int
+    status: str
+    payment_status: str
+    booking_date: str
+    booking_time: str
+    created_at: datetime
+
+
+class DashboardResponse(BaseModel):
+    summary: DashboardSummary
+    revenue_by_month: list[DashboardChartPoint]
+    revenue_by_day: list[DashboardChartPoint]
+    bookings_by_month: list[DashboardChartPoint]
+    top_services: list[DashboardServiceItem]
+    top_customers: list[DashboardCustomerItem]
+    recent_bookings: list[DashboardBookingItem]
+    new_customers: list[DashboardCustomerItem]
+    pending_bookings: list[DashboardBookingItem]
+    filter_period: str
+    filter_start: str
+    filter_end: str
+
+
 class AdminUserUpdate(BaseModel):
     role: str | None = None
     is_active: bool | None = None
@@ -192,6 +249,27 @@ class EmployeeResponse(BaseModel):
 
 class OrderStatusUpdate(BaseModel):
     status: str
+
+
+class PaymentStatusUpdate(BaseModel):
+    payment_status: str
+
+
+class OrderStatusLogResponse(BaseModel):
+    id: int
+    order_id: int
+    action: str
+    old_value: str | None
+    new_value: str
+    note: str | None
+    created_by: str | None
+    created_at: datetime
+
+    model_config = ConfigDict(from_attributes=True)
+
+
+class OrderDetailResponse(OrderResponse):
+    status_logs: list[OrderStatusLogResponse] = Field(default_factory=list)
 
 
 class AdminPaymentResponse(BaseModel):

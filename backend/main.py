@@ -5,9 +5,11 @@ from pathlib import Path
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 from sqlalchemy import text
 from sqlalchemy.orm import Session
 
+from config import get_cors_origins
 from admin_router import router as admin_router
 from auth import hash_password
 from auth_router import router as auth_router
@@ -17,6 +19,9 @@ from models import Category, Product, User, UserRole
 from order_router import router as order_router
 from payment_router import router as payment_router
 from product_router import router as product_router
+from routers.admin.dashboard import router as admin_dashboard_router
+from routers.admin.orders import router as admin_orders_router
+from routers.admin.services import router as admin_services_router
 
 SEED_PATHS = [
     Path(__file__).resolve().parent.parent
@@ -141,7 +146,7 @@ app = FastAPI(title="ShopHub API", lifespan=lifespan)
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://localhost:3000"],
+    allow_origins=get_cors_origins(),
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -153,6 +158,13 @@ app.include_router(auth_router)
 app.include_router(order_router)
 app.include_router(payment_router)
 app.include_router(admin_router)
+app.include_router(admin_dashboard_router)
+app.include_router(admin_services_router)
+app.include_router(admin_orders_router)
+
+uploads_dir = Path(__file__).resolve().parent / "uploads"
+uploads_dir.mkdir(parents=True, exist_ok=True)
+app.mount("/uploads", StaticFiles(directory=str(uploads_dir)), name="uploads")
 
 
 @app.get("/")

@@ -5,8 +5,7 @@ from sqlalchemy.orm import Session
 
 from auth import require_admin
 from database import get_db
-from models import Employee, Order, OrderStatus, PaymentStatus, Product, User, UserRole
-from order_router import _to_order_response
+from models import Employee, Order, PaymentStatus, Product, User, UserRole
 from schemas import (
     AdminPaymentResponse,
     AdminStatsResponse,
@@ -14,8 +13,6 @@ from schemas import (
     EmployeeCreate,
     EmployeeResponse,
     EmployeeUpdate,
-    OrderResponse,
-    OrderStatusUpdate,
     UserResponse,
 )
 
@@ -222,89 +219,6 @@ def delete_employee(
         raise HTTPException(status_code=404, detail="Employee not found")
 
     db.delete(employee)
-    db.commit()
-
-
-@router.get("/orders")
-def list_orders_admin(
-    q: str = "",
-    date: str = "",
-    status_filter: str = Query("", alias="status"),
-    page: int = Query(1, ge=1),
-    size: int = Query(10, ge=1, le=100),
-    db: Session = Depends(get_db),
-    _: User = Depends(require_admin),
-):
-    query = db.query(Order)
-
-    if q.strip():
-        term = f"%{q.strip()}%"
-        query = query.filter(
-            (Order.full_name.ilike(term))
-            | (Order.email.ilike(term))
-            | (Order.phone.ilike(term))
-        )
-
-    if date.strip():
-        query = query.filter(Order.booking_date == date.strip())
-
-    if status_filter.strip():
-        try:
-            query = query.filter(Order.status == OrderStatus(status_filter.strip()))
-        except ValueError:
-            raise HTTPException(status_code=400, detail="Invalid status filter")
-
-    total = query.count()
-    orders = (
-        query.order_by(Order.created_at.desc())
-        .offset((page - 1) * size)
-        .limit(size)
-        .all()
-    )
-
-    return {
-        "items": [_to_order_response(order) for order in orders],
-        "meta": {
-            "total": total,
-            "page": page,
-            "size": size,
-            "pages": _pages(total, size),
-        },
-    }
-
-
-@router.patch("/orders/{order_id}/status", response_model=OrderResponse)
-def update_order_status(
-    order_id: int,
-    payload: OrderStatusUpdate,
-    db: Session = Depends(get_db),
-    _: User = Depends(require_admin),
-):
-    order = db.query(Order).filter(Order.id == order_id).first()
-    if not order:
-        raise HTTPException(status_code=404, detail="Order not found")
-
-    try:
-        order.status = OrderStatus(payload.status)
-    except ValueError:
-        raise HTTPException(status_code=400, detail="Invalid status")
-
-    db.commit()
-    db.refresh(order)
-    return _to_order_response(order)
-
-
-@router.delete("/orders/{order_id}", status_code=204)
-def delete_order(
-    order_id: int,
-    db: Session = Depends(get_db),
-    _: User = Depends(require_admin),
-):
-    order = db.query(Order).filter(Order.id == order_id).first()
-    if not order:
-        raise HTTPException(status_code=404, detail="Order not found")
-
-    db.delete(order)
     db.commit()
 
 

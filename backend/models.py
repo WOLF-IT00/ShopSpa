@@ -113,6 +113,24 @@ class Order(Base):
     items = relationship(
         "OrderItem", back_populates="order", cascade="all, delete-orphan"
     )
+    status_logs = relationship(
+        "OrderStatusLog", back_populates="order", cascade="all, delete-orphan"
+    )
+
+
+class OrderStatusLog(Base):
+    __tablename__ = "order_status_logs"
+
+    id = Column(Integer, primary_key=True, index=True)
+    order_id = Column(Integer, ForeignKey("orders.id"), nullable=False)
+    action = Column(String(50), nullable=False)
+    old_value = Column(String(50), nullable=True)
+    new_value = Column(String(50), nullable=False)
+    note = Column(Text, nullable=True)
+    created_by = Column(String(255), nullable=True)
+    created_at = Column(DateTime, default=datetime.utcnow, nullable=False)
+
+    order = relationship("Order", back_populates="status_logs")
 
 
 class OrderItem(Base):

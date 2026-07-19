@@ -1,6 +1,12 @@
 import axios from "axios";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:8000";
+const API_BASE = import.meta.env.VITE_API_URL;
+
+if (!API_BASE) {
+  throw new Error(
+    "VITE_API_URL is not defined. Create frontend/.env with VITE_API_URL=http://<YOUR_IP>:8000"
+  );
+}
 
 const api = axios.create({
   baseURL: API_BASE,
@@ -47,6 +53,7 @@ export const paymentAPI = {
 
 export const adminAPI = {
   getStats: () => api.get("/admin/stats"),
+  getDashboard: (params) => api.get("/admin/dashboard", { params }),
   getUsers: (params) => api.get("/admin/users", { params }),
   updateUser: (id, data) => api.patch(`/admin/users/${id}`, data),
   deleteUser: (id) => api.delete(`/admin/users/${id}`),
@@ -54,10 +61,31 @@ export const adminAPI = {
   createEmployee: (data) => api.post("/admin/employees", data),
   updateEmployee: (id, data) => api.put(`/admin/employees/${id}`, data),
   deleteEmployee: (id) => api.delete(`/admin/employees/${id}`),
+  getServices: (params) => api.get("/admin/services", { params }),
+  getService: (id) => api.get(`/admin/services/${id}`),
+  createService: (data) => api.post("/admin/services", data),
+  updateService: (id, data) => api.put(`/admin/services/${id}`, data),
+  deleteService: (id) => api.delete(`/admin/services/${id}`),
+  uploadServiceImage: (file) => {
+    const formData = new FormData();
+    formData.append("file", file);
+    return api.post("/admin/services/upload", formData, {
+      headers: { "Content-Type": "multipart/form-data" },
+    });
+  },
   getOrders: (params) => api.get("/admin/orders", { params }),
+  getOrder: (id) => api.get(`/admin/orders/${id}`),
   updateOrderStatus: (id, data) => api.patch(`/admin/orders/${id}/status`, data),
+  updateOrderPayment: (id, data) => api.patch(`/admin/orders/${id}/payment`, data),
+  getOrderHistory: (id) => api.get(`/admin/orders/${id}/history`),
   deleteOrder: (id) => api.delete(`/admin/orders/${id}`),
   getPayments: (params) => api.get("/admin/payments", { params }),
 };
+
+export function resolveUploadUrl(url) {
+  if (!url) return "";
+  if (url.startsWith("http://") || url.startsWith("https://")) return url;
+  return `${API_BASE}${url.startsWith("/") ? url : `/${url}`}`;
+}
 
 export default api;
